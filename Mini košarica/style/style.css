@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+}
+
+.open-btn {
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.btn-icon {
+  margin: 2px;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.mini-cart {
+  background-color: white;
+  width: 450px;
+  height: auto;
+  margin: 15px;
+  -webkit-box-shadow: 0px 6px 10px gray;
+          box-shadow: 0px 6px 10px gray;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  position: absolute;
+}
+
+.mini-cart.active {
+  opacity: 1;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background: gray;
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.title {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+img {
+  width: 170px;
+  height: auto;
+  padding: 15px;
+  position: static;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+article {
+  font-size: larger;
+  display: inline-block;
+  position: static;
+  left: 30px;
+  bottom: 25px;
+}
+
+.atr {
+  color: gray;
+}
+
+.price {
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.edit-btn {
+  width: 170px;
+  height: 50px;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.checkout-btn {
+  width: 210px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  background-color: #4fc053;
+  border: none;
+  margin-left: 13px;
+  cursor: pointer;
+}
+
+.two-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  padding: 13px;
+}
+/*# sourceMappingURL=style.css.map */
